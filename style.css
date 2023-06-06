@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+/* ==== ROOT RESET ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+span{
+	color: #335eea;
+}
+.logo{
+	
+	padding-left: 80px;
+}
+.container-nav{
+	padding: 2%;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul{
+	padding-right: 80px;
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+}
+ 
+nav ul li a{
+	font-size: 18px;
+	padding: 15px 18px;
+	text-decoration: none;
+	color:#8c9ab5;
+}
+img{
+	top: 32%;
+	left: 55%;
+	position: absolute;
+	width: 480px;
+}
+
+.container{
+	gap: 30px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 120px;
+	margin-left: 109px;
+}
+.container p{
+	font-size: 23px;
+	color: #404c61;
+}
+.container h1{
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.botoes button{
+	background-color: #335eea;
+	border: none;
+	height: 55px;
+	color: white;
+	width: 170px;
+	font-size: 1rem;
+	border-radius: 8px;
+}
+.botoes{
+	display: flex;
+	gap: 15px;
+}
+
+.botoes button:nth-child(2){
+	color: #4359a3;
+	background-color: rgb(225,231,250);
+}
